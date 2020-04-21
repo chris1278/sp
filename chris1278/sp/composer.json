@@ -1,0 +1,26 @@
+{
+	"name": "chris1278/sp",
+	"type": "phpbb-extension",
+	"description": "Benutzerdefinierte Ausgabe bestimmter Sprachvariabelen",
+	"homepage": "https://christian-esch.de",
+	"version": "1.0.0",
+	"time": "2020-04-21",
+	"license": "GPL-2.0-only",
+	"authors": [{
+			"name": "Chris1278",
+			"email": "smilie-man@gmx.de",
+			"homepage": "https://christian-esch.de",
+			"role": "Lead Developer"
+		}
+		],
+	"require": {
+		"php": ">=5.5"
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"display-name": "Benutzerdefnierte Sprachvariabelen",
+		"soft-require": {
+			"phpbb/phpbb": ">3.2"
+		}
+	}
+}
