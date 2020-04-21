@@ -1,7 +1,0 @@
-services:
-    chris1278.sp.listener:
-        class: chris1278\sp\event\listener
-        arguments:
-            - '%core.root_path%'
-        tags:
-            - {name: event.listener}
